@@ -37,3 +37,12 @@
 - Ideally, the model would ask clarifying questions when the user provided an ambiguous query. Instead, our current models usually guess what the user intended.
 
 - While we’ve made efforts to make the model refuse inappropriate requests, it will sometimes respond to harmful instructions or exhibit biased behavior. We’re using the [Moderation API](https://openai.com/blog/new-and-improved-content-moderation-tooling/) to warn or block certain types of unsafe content, but we expect it to have some false negatives and positives for now. We’re eager to collect user feedback to aid our ongoing work to improve this system.
+
+# Model index
+- Our models are used for both research purposes and developer use cases in production. Researchers often learn about our models from papers that we have published, but there is often not a perfect match between what is available in the OpenAI API and what is published in a paper.
+
+- The purpose of this page is to help clarify:
+
+  - Some of the differences in the ways that our models are trained, which impacts the comparisons that can be made between models, and various evaluation results.
+  - The differences between various model series, such as GPT 3.5 and InstructGPT.
+  - Which if any of the models available in the API today match with a model in a paper. In some cases, there might not be a match.
