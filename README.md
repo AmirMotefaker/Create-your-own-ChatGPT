@@ -66,3 +66,6 @@
     - Reinforcement learning with reward models trained from comparisons by humans	text-davinci-003
 
 #### The SFT and PPO models are trained similarly to the ones from the [InstructGPT paper](https://arxiv.org/abs/2203.02155). FeedME (short for "feedback made easy") models are trained by distilling the best completions from all of our models. Our models generally used the best available datasets at the time of training, and so different engines using the same training methodology might be trained on different data.
+
+
+### [Model index for researchers](https://platform.openai.com/docs/model-index-for-researchers)
