@@ -74,3 +74,40 @@
 ### [Training language models to follow instructions with human feedback](https://arxiv.org/abs/2203.02155)
 
 - Making language models bigger does not inherently make them better at following a user's intent. For example, large language models can generate outputs that are untruthful, toxic, or simply not helpful to the user. In other words, these models are not aligned with their users. In this paper, we show an avenue for aligning language models with user intent on a wide range of tasks by fine-tuning with human feedback. Starting with a set of labeler-written prompts and prompts submitted through the OpenAI API, we collect a dataset of labeler demonstrations of the desired model behavior, which we use to fine-tune GPT-3 using supervised learning. We then collect a dataset of rankings of model outputs, which we use to further fine-tune this supervised model using reinforcement learning from human feedback. We call the resulting models InstructGPT. In human evaluations on our prompt distribution, outputs from the 1.3B parameter InstructGPT model are preferred to outputs from the 175B GPT-3, despite having 100x fewer parameters. Moreover, InstructGPT models show improvements in truthfulness and reductions in toxic output generation while having minimal performance regressions on public NLP datasets. Even though InstructGPT still makes simple mistakes, our results show that fine-tuning with human feedback is a promising direction for aligning language models with human intent.
+
+
+# Advantages and Disadvantages of ChatGPT
+
+#### Advantages:
+1. Imitates Human Conversation
+    - The core feature of ChatGPT centers on providing human-like conversation based on user-placed queries or commands. It is generally similar to virtual assistant technologies and software applications such as Siri from Apple and Alexa from Amazon. However, considering its capabilities, it mimics real-life conversation because it is based on more advanced supervised learning and reinforcement learning using large language models.
+    
+
+2. Built Based on GPT-3 Model
+    - GPT-3 or Generative Pre-trained Transformer 3 is an autoregressive language and language prediction model developed by OpenAI. It is the largest non-sparse language model and has been considered one of the most important AI systems ever produced. The quality of texts it generates makes it difficult to ascertain whether or not it is written by a human.
+    
+
+3. Expansive Applications and Benefits
+    - The chatbot is versatile. It can write outputs similar to commercial AI copywriters. Experiments have shown that it can even compose music and produce works of fiction such as short stories. It can help content creators or technical writers produce an outline. The chatbot can also summarize, digest, and explain large bodies of text. Another interesting application of ChatGPT is that it can also write and debug computer programs.
+    
+
+4. Open For Further Fine-Tuning
+    - Another advantage of ChatGPT is that its responses and overall performance can be fine-tuned. It banks on existing large language models while also having room for further improvements through active training using supervised learning and reinforcement learning. A user can upvote or downvote a particular response while also providing additional feedback.
+    
+
+#### Disadvantages:
+1. Inaccuracies and Ambiguities
+    - One of the biggest criticisms and limitations of ChatGPT is that it sometimes tends to produce texts that sound plausible or convincing but are incorrect or nonsensical under the surface. This phenomenon is called “hallucination” and it is common in language models. Furthermore, when it comes to obtaining information, it does not provide references or citations. Using this chatbot alone for research purposes and electronic trailing is not ideal.
+    
+
+2. Limited Knowledge of Recent Events
+    - The version launched in November 2022 can only provide information about events occurring in 2021 and earlier. It will soon provide more recent events as it continues to feed on data based on human-generated texts. Nevertheless, considering this drawback, users should keep in mind that it has limited knowledge of facts because it uses datasets that are not updated.
+    
+
+3. Ethical Issues and Concerns
+    - Another disadvantage of ChatGPT is that it has been subjected to scrutiny. Several educational institutions have banned its use. Researchers and creatives have worried about copyright infringement because its outputs are based on human-generated texts. It also raises the question of whether it is ethical to use it as a substitute for services that require human interactions such as customer service representation and even therapeutic counseling.
+    
+
+4. Other Possible Legal Implications
+    - GPT was built with data from the Common Crawl dataset which contains copyrighted materials from publishing companies and individual authors and researchers. Experts have also warned that AI-based applications can be used for cybercriminal activities. ChatGPT and other derivatives face legal uncertainties and possible compliance costs.
+
