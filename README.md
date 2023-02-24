@@ -46,3 +46,10 @@
   - Some of the differences in the ways that our models are trained, which impacts the comparisons that can be made between models, and various evaluation results.
   - The differences between various model series, such as GPT 3.5 and InstructGPT.
   - Which if any of the models available in the API today match with a model in a paper. In some cases, there might not be a match.
+
+# Models referred to as "GPT 3.5"
+- GPT-3.5 series is a series of models that was trained on a blend of text and code from before Q4 2021. The following models are in the GPT-3.5 series:
+
+  - code-davinci-002 is a base model, so good for pure code-completion tasks
+  - text-davinci-002 is an InstructGPT model based on code-davinci-002
+  - text-davinci-003 is an improvement on text-davinci-002
