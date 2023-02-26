@@ -112,7 +112,7 @@
     - GPT was built with data from the Common Crawl dataset which contains copyrighted materials from publishing companies and individual authors and researchers. Experts have also warned that AI-based applications can be used for cybercriminal activities. ChatGPT and other derivatives face legal uncertainties and possible compliance costs.
 
 
-# ChatGPT Heralds an Intellectual Revolution
+# ChatGPT Heralds an Intellectual Revoon
 
 - Generative artificial intelligence presents a philosophical and practical challenge on a scale not experienced since the start of the Enlightenment.
 
