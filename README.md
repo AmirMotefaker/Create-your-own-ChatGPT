@@ -1,9 +1,9 @@
-# Create your own CGPT
+# Create your own ChatGPT
 
 # Introduction
-- ChatGPT (Chat Generative Pre-trained Transformer) is an AI-powered chatbot created by [OpenAI](https://openai.com/) that enables users to have highly sophisticated, human-like conversations. The language model is capable of answering questions and assist in various tasks, including writing emails, essays, and code. Due to its dialogue design, ChatGPT is capable of answering follow-up questions, acknowledging errors, questioning incorrect assumptions, and declining inappropriate requests.
+- ChatGPT (Chat Generative Pre-trained Transformer) is an AI-powered chatbot created by [OpenAI](https://openai.com/) that enables users to have highly sophisticated, human-like conversations. The language model is capable of answering questions and assisting in various tasks, including writing emails, essays, and code. Due to its dialogue design, ChatGPT is capable of answering follow-up questions, acknowledging errors, questioning incorrect assumptions, and declining inappropriate requests.
 
-- The ChatGPT model was fine-tuned from a model in the GPT-3.5 series, which completed its training in early 2022. The ChatGPT as well as the related GPT-3.5 models were trained on a high-performance Azure AI supercomputing infrastructure.
+- The ChatGPT model was fine-tuned from a model in the GPT-3.5 series, which completed its training in early 2022. The ChatGPT, as well as the related GPT-3.5 models, were trained on a high-performance Azure AI supercomputing infrastructure.
 
 - While ChatGPT possesses many strengths, being a generalized model, it may not always be the most effective solution for narrower, more specialized topics with limited training data available. Moreover, the dialog interface has not yet been made available by OpenAI for businesses to integrate.
 
@@ -13,9 +13,9 @@
 
 
 # GPT-3
-- In 2020, the Generative Pre-trained Transformer 3 (GPT-3) was introduced as an autoregressive language model capable to generate high-quality text that resembles human writing. The GPT-3 is the third generation of the GPT language models made available by OpenAI.
+- In 2020, the Generative Pre-trained Transformer 3 (GPT-3) was introduced as an autoregressive language model capable of generating high-quality text that resembles human writing. The GPT-3 is the third generation of the GPT language models made available by OpenAI.
 
-- By providing an initial prompt as input, GPT-3 has the ability to produce a continuation of the text that follows the style and structure of the input prompt. The model is capable of performing a range of tasks, including but not limited to, text classification, question answering, text generation, text summarization, named-entity recognition, and language translation.
+- By providing an initial prompt as input, GPT-3 has the ability to produce a continuation of the text that follows the style and structure of the input prompt. The model is capable of performing a range of tasks, including but not limited to text classification, question answering, text generation, text summarization, named-entity recognition, and language translation.
 
 
 # ChatGPT Methods
@@ -30,7 +30,7 @@
 # ChatGPT Limitations
 - ChatGPT sometimes writes plausible-sounding but incorrect or nonsensical answers. Fixing this issue is challenging, as: during RL training, there’s currently no source of truth; training the model to be more cautious causes it to decline questions that it can answer correctly; and supervised training misleads the model because the ideal answer [depends on what the model knows](https://www.alignmentforum.org/posts/BgoKdAzogxmgkuuAt/behavior-cloning-is-miscalibrated), rather than what the human demonstrator knows.
 
-- ChatGPT is sensitive to tweaks to the input phrasing or attempting the same prompt multiple times. For example, given one phrasing of a question, the model can claim to not know the answer, but given a slight rephrase, can answer correctly.
+- ChatGPT is sensitive to tweaks to the input phrasing or attempting the same prompt multiple times. For example, given one phrasing of a question, the model can claim to not know the answer, but given a slight rephrase, it can answer correctly.
 
 - The model is often excessively verbose and overuses certain phrases, such as restating that it’s a language model trained by OpenAI. These issues arise from biases in the training data (trainers prefer longer answers that look more comprehensive) and well-known over-optimization issues.
 
@@ -43,9 +43,9 @@
 
 - The purpose of this page is to help clarify:
 
-  - Some of the differences in the ways that our models are trained, which impacts the comparisons that can be made between models, and various evaluation results.
+  - Some of the differences in the ways that our models are trained, which impact the comparisons that can be made between models, and various evaluation results.
   - The differences between various model series, such as GPT 3.5 and InstructGPT.
-  - Which if any of the models available in the API today match with a model in a paper. In some cases, there might not be a match.
+  - Which if any of the models available in the API today match a model in a paper? In some cases, there might not be a match.
 
 # Models referred to as "GPT 3.5"
 - GPT-3.5 series is a series of models that was trained on a blend of text and code from before Q4 2021. The following models are in the GPT-3.5 series:
@@ -97,7 +97,7 @@
 
 #### Disadvantages:
 1. Inaccuracies and Ambiguities
-    - One of the biggest criticisms and limitations of ChatGPT is that it sometimes tends to produce texts that sound plausible or convincing but are incorrect or nonsensical under the surface. This phenomenon is called “hallucination” and it is common in language models. Furthermore, when it comes to obtaining information, it does not provide references or citations. Using this chatbot alone for research purposes and electronic trailing is not ideal.
+    - One of the biggest criticisms and limitations of ChatGPT is that it sometimes tends to produce texts that sound plausible or convincing but are incorrect or nonsensical under the surface. This phenomenon is called “hallucination,” and it is common in language models. Furthermore, when it comes to obtaining information, it does not provide references or citations. Using this chatbot alone for research purposes and electronic trailing is not ideal.
     
 
 2. Limited Knowledge of Recent Events
@@ -105,11 +105,11 @@
     
 
 3. Ethical Issues and Concerns
-    - Another disadvantage of ChatGPT is that it has been subjected to scrutiny. Several educational institutions have banned its use. Researchers and creatives have worried about copyright infringement because its outputs are based on human-generated texts. It also raises the question of whether it is ethical to use it as a substitute for services that require human interactions such as customer service representation and even therapeutic counseling.
+    - Another disadvantage of ChatGPT is that it has been subjected to scrutiny. Several educational institutions have banned its use. Researchers and creatives have worried about copyright infringement because their outputs are based on human-generated texts. It also raises the question of whether it is ethical to use it as a substitute for services that require human interactions, such as customer service representation and even therapeutic counseling.
     
 
 4. Other Possible Legal Implications
-    - GPT was built with data from the Common Crawl dataset which contains copyrighted materials from publishing companies and individual authors and researchers. Experts have also warned that AI-based applications can be used for cybercriminal activities. ChatGPT and other derivatives face legal uncertainties and possible compliance costs.
+    - GPT was built with data from the Common Crawl dataset which contains copyrighted materials from publishing companies and individual authors, and researchers. Experts have also warned that AI-based applications can be used for cybercriminal activities. ChatGPT and other derivatives face legal uncertainties and possible compliance costs.
 
 
 # ChatGPT Heralds an Intellectual Revolution
@@ -118,13 +118,13 @@
 
 - The new technology is known as generative artificial intelligence; GPT stands for Generative Pre-Trained Transformer. ChatGPT, developed at the OpenAI research laboratory, is now able to converse with humans. As its capacities become broader, they will redefine human knowledge, accelerate changes in the fabric of our reality, and reorganize politics and society.
 
-- Generative AI will similarly open revolutionary avenues for human reason and new horizons for consolidated knowledge. But there are categorical differences. Enlightenment knowledge was achieved progressively, step by step, with each step testable and teachable. AI-enabled systems start at the other end. They can store and distill a huge amount of existing information, in ChatGPT’s case much of the textual material on the internet and a large number of books—billions of items. Holding that volume of information and distilling it is beyond human capacity.
+- Generative AI will similarly open revolutionary avenues for human reason and new horizons for consolidated knowledge. But there are categorical differences. Enlightenment knowledge was achieved progressively, step by step, with each step testable and teachable. AI-enabled systems start at the other end. They can store and distill a huge amount of existing information, in ChatGPT’s case, much of the textual material on the internet and a large number of books—billions of items. Holding that volume of information and distilling it is beyond human capacity.
 
-- AI’s capacities are not static but expand exponentially as technology advances. Recently, the complexity of AI models has been doubling every few months. Therefore generative AI systems have capabilities that remain undisclosed even to their inventors. With each new AI system, they are building new capacities without understanding their origin or destination. As a result, our future now holds an entirely novel element of mystery, risk, and surprise.
+- AI’s capacities are not static but expand exponentially as technology advances. Recently, the complexity of AI models has been doubling every few months. Therefore, generative AI systems have capabilities that remain undisclosed even to their inventors. With each new AI system, they are building new capacities without understanding their origin or destination. As a result, our future now holds an entirely novel element of mystery, risk, and surprise.
 
-- The ability of large language models to generate humanlike text was an almost accidental discovery. These models are trained to be able to predict the next word in a sentence, which is useful in tasks such as autocompletion for sending text messages or searching the web. But it turns out that the models also have the unexpected ability to create highly articulate paragraphs, articles, and in time perhaps books.
+- The ability of large language models to generate humanlike text was an almost accidental discovery. These models are trained to be able to predict the next word in a sentence, which is useful in tasks such as autocompletion for sending text messages or searching the web. But it turns out that the models also have the unexpected ability to create highly articulate paragraphs, articles, and in time, perhaps books.
 
-- ChatGPT’s answers, statements and observations appear without an explanation of where they came from and without an identifiable author. On its face, ChatGPT has no discernible motive or bias. Its outputs are complex, but its work is astonishingly rapid: In a matter of seconds, it can produce answers that coherently explain a high-level topic. They are not simply copied from the text in the computer’s memory. They are generated anew by a process that humans are unable to replicate. It is able to incorporate hypotheticals and nonobvious psychological inferences. It can prioritize among billions of data points to select the single set of 200 words that is most relevant (or will appear most relevant to a human reader). In its own words, it makes probabilistic judgments about future outcomes, blending information from discrete domains into an integrated answer. It appears to accept contrary views, presenting them as simultaneously compatible. It imitates other writing without copying it. Even though the model is incapable of understanding in the human sense, its outputs reflect an underlying essence of human language.
+- ChatGPT’s answers, statements, and observations appear without an explanation of where they came from and without an identifiable author. On its face, ChatGPT has no discernible motive or bias. Its outputs are complex, but its work is astonishingly rapid: In a matter of seconds, it can produce answers that coherently explain a high-level topic. They are not simply copied from the text in the computer’s memory. They are generated anew by a process that humans are unable to replicate. It is able to incorporate hypotheticals and non-obvious psychological inferences. It can prioritize among billions of data points to select the single set of 200 words that is most relevant (or will appear most relevant to a human reader). In its own words, it makes probabilistic judgments about future outcomes, blending information from discrete domains into an integrated answer. It appears to accept contrary views, presenting them as simultaneously compatible. It imitates other writing without copying it. Even though the model is incapable of understanding in the human sense, its outputs reflect an underlying essence of human language.
 
 - The biggest of these models are expensive to train—north of $1 billion per model. Once trained, thousands of computers work 24 hours a day to operate them. Operating a pretrained model is cheap compared with the training itself, and it requires only capital, rather than capital and computing skill. Still, paying for exclusive use of a large language model remains outside the bounds of most enterprises. These models’ developers are likely to sell subscriptions, so that a single model will serve the needs of many thousands of individuals and businesses. As a result, the number of very large language models in the next decade may be relatively constrained. Design and control of these models will be highly concentrated, even as their power to amplify human efforts and thought becomes much more diffuse.
 
