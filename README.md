@@ -28,9 +28,9 @@
 
 
 # ChatGPT Limitations
-- ChatGPT sometimes writes plausible-sounding but incorrect or nonsensical answers. Fixing this issue is challenging, as: during RL training, there’s currently no source of truth; training the model to be more cautious causes it to decline questions that it can answer correctly; and supervised training misleads the model because the ideal answer [depends on what the model knows](https://www.alignmentforum.org/posts/BgoKdAzogxmgkuuAt/behavior-cloning-is-miscalibrated), rather than what the human demonstrator knows.
+- ChatGPT sometimes writes plausible-sounding but incorrect or nonsensical answers. Fixing this issue is challenging, as during RL training, there’s currently no source of truth; training the model to be more cautious causes it to decline questions that it can answer correctly; and supervised training misleads the model because the ideal answer depends on what the model knows](https://www.alignmentforum.org/posts/BgoKdAzogxmgkuuAt/behavior-cloning-is-miscalibrated), rather than what the human demonstrator knows.
 
-- ChatGPT is sensitive to tweaks to the input phrasing or attempting the same prompt multiple times. For example, given one phrasing of a question, the model can claim to not know the answer, but given a slight rephrase, it can answer correctly.
+- ChatGPT is sensitive to tweaks to the input phrasing or attempting the same prompt multiple times. For example, given one phrasing of a question, the model can claim not to know the answer, but given a slight rephrase, it can answer correctly.
 
 - The model is often excessively verbose and overuses certain phrases, such as restating that it’s a language model trained by OpenAI. These issues arise from biases in the training data (trainers prefer longer answers that look more comprehensive) and well-known over-optimization issues.
 
@@ -45,9 +45,9 @@
 
   - Some of the differences in the ways that our models are trained, which impact the comparisons that can be made between models, and various evaluation results.
   - The differences between various model series, such as GPT 3.5 and InstructGPT.
-  - Which if any of the models available in the API today match a model in a paper? In some cases, there might not be a match.
+  - Which, if any, of the models available in the API today match a model in a paper? In some cases, there might not be a match.
 
-# Models referred to as "GPT 3.5"
+# Models referred to as "GPT 3.5."
 - GPT-3.5 series is a series of models that was trained on a blend of text and code from before Q4 2021. The following models are in the GPT-3.5 series:
 
   - code-davinci-002 is a base model, so good for pure code-completion tasks
@@ -88,7 +88,7 @@
     
 
 3. Expansive Applications and Benefits
-    - The chatbot is versatile. It can write outputs similar to commercial AI copywriters. Experiments have shown that it can even compose music and produce works of fiction such as short stories. It can help content creators or technical writers produce an outline. The chatbot can also summarize, digest, and explain large bodies of text. Another interesting application of ChatGPT is that it can also write and debug computer programs.
+    - The chatbot is versatile. It can write outputs similar to commercial AI copywriters. Experiments have shown that it can even compose music and produce works of fiction, such as short stories. It can help content creators or technical writers produce an outline. The chatbot can also summarize, digest, and explain large bodies of text. Another interesting application of ChatGPT is that it can also write and debug computer programs.
     
 
 4. Open For Further Fine-Tuning
@@ -126,7 +126,7 @@
 
 - ChatGPT’s answers, statements, and observations appear without an explanation of where they came from and without an identifiable author. On its face, ChatGPT has no discernible motive or bias. Its outputs are complex, but its work is astonishingly rapid: In a matter of seconds, it can produce answers that coherently explain a high-level topic. They are not simply copied from the text in the computer’s memory. They are generated anew by a process that humans are unable to replicate. It is able to incorporate hypotheticals and non-obvious psychological inferences. It can prioritize among billions of data points to select the single set of 200 words that is most relevant (or will appear most relevant to a human reader). In its own words, it makes probabilistic judgments about future outcomes, blending information from discrete domains into an integrated answer. It appears to accept contrary views, presenting them as simultaneously compatible. It imitates other writing without copying it. Even though the model is incapable of understanding in the human sense, its outputs reflect an underlying essence of human language.
 
-- The biggest of these models is expensive to train—north of $1 billion per model. Once trained, thousands of computers work 24 hours a day to operate them. Operating a pretrained model is cheap compared with the training itself, and it requires only capital, rather than capital and computing skill. Still, paying for exclusive use of a large language model remains outside the bounds of most enterprises. These models’ developers are likely to sell subscriptions, so that a single model will serve the needs of many thousands of individuals and businesses. As a result, the number of very large language models in the next decade may be relatively constrained. Design and control of these models will be highly concentrated, even as their power to amplify human efforts and thought becomes much more diffuse.
+- The biggest of these models is expensive to train—north of $1 billion per model. Once trained, thousands of computers work 24 hours a day to operate them. Operating a pretrained model is cheap compared with the training itself, and it requires only capital, rather than capital and computing skills. Still, paying for exclusive use of a large language model remains outside the bounds of most enterprises. These models’ developers are likely to sell subscriptions, so that a single model will serve the needs of many thousands of individuals and businesses. As a result, the number of very large language models in the next decade may be relatively constrained. Design and control of these models will be highly concentrated, even as their power to amplify human efforts and thought becomes much more diffuse.
 
 - The lack of citations in ChatGPT’s answers makes it difficult to discern truth from misinformation. We know already that malicious actors are injecting reams of manufactured “facts,” and increasingly convincing deepfake images and videos, into the internet—that is to say, into ChatGPT’s present and future learning set. Because ChatGPT is designed to answer questions, it sometimes makes up facts to provide a seemingly coherent answer. That phenomenon is known among AI researchers as “hallucination” or “stochastic parroting,” in which an AI strings together phrases that look real to a human reader but have no basis in fact. What triggers these errors and how to control them remain to be discovered.
 
