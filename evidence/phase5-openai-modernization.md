@@ -31,7 +31,7 @@ Official references reviewed for this milestone:
 - [x] Modern code has offline unit tests.
 - [x] GitHub Actions validates Python 3.10 and 3.12.
 - [x] CI rejects obvious API-key patterns in committed text files.
-- [x] CI rejects openai.Completion and 	ext-davinci-003 in modern entrypoints.
+- [x] CI rejects openai.Completion and text-davinci-003 in modern entrypoints.
 - [x] CI does not make paid/live OpenAI API calls.
 
 ## Local validation
