@@ -1,0 +1,62 @@
+name: Bug report
+description: Report a reproducible problem
+title: "[Bug]: "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a bug. Do not include secrets or private data.
+        Security vulnerabilities must be reported privately through the Security tab.
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: What happened?
+      placeholder: Describe the problem clearly.
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Provide the smallest reliable reproduction.
+      placeholder: |
+        1. ...
+        2. ...
+        3. ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: OS, browser/runtime, Python/Node version, commit/release, or other relevant context.
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Sanitized logs or screenshots
+      description: Remove API keys, tokens, private URLs, email addresses, and other sensitive information before posting.
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: I searched existing issues.
+          required: true
+        - label: This is not a security vulnerability.
+          required: true
+        - label: I removed secrets and private information.
+          required: true
