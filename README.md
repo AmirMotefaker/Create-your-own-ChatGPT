@@ -2,47 +2,111 @@
 
 [![GitHub stars](https://img.shields.io/github/stars/AmirMotefaker/Create-your-own-ChatGPT?style=flat&logo=github)](https://github.com/AmirMotefaker/Create-your-own-ChatGPT/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/AmirMotefaker/Create-your-own-ChatGPT?style=flat&logo=github)](https://github.com/AmirMotefaker/Create-your-own-ChatGPT/network/members)
-[![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-F37626?logo=jupyter&logoColor=white)](https://jupyter.org/)
+[![Python modernization](https://github.com/AmirMotefaker/Create-your-own-ChatGPT/actions/workflows/python-modernization.yml/badge.svg)](https://github.com/AmirMotefaker/Create-your-own-ChatGPT/actions/workflows/python-modernization.yml)
 
-A compact educational archive for experimenting with early ChatGPT/OpenAI workflows in Python and Jupyter notebooks.
+A modern OpenAI Responses API CLI plus the original historical Jupyter notebooks that documented the project's early ChatGPT experiments.
 
-> [!IMPORTANT]
-> **Legacy educational project.** The notebooks were created around the 2023-era OpenAI API ecosystem. Some API calls, model names, or setup steps may now be deprecated or incompatible with current services. Treat this repository as a learning/reference archive rather than production-ready code.
+## Modern 2026 path
 
-## Why this repository is still useful
+The supported entrypoint is [`chat.py`](chat.py), backed by [`openai_service.py`](openai_service.py).
 
-This project captures an early hands-on path for understanding how Python notebooks can call language-model APIs, send prompts, and inspect generated responses. It is intentionally kept small and easy to browse.
+It uses:
 
-## What's inside
+- the official OpenAI Python SDK
+- `client.responses.create(...)`
+- `response.output_text`
+- `OPENAI_API_KEY` from the environment
+- `previous_response_id` for multi-turn conversation state
+- `gpt-5.5` as the default model, overridable with `OPENAI_MODEL` or `--model`
 
-| File | Purpose |
-| --- | --- |
-| [`Create_your_own_ChatGPT_with_Python.ipynb`](Create_your_own_ChatGPT_with_Python.ipynb) | Lightweight Python/Jupyter walkthrough |
-| [`Create your own ChatGPT.ipynb`](Create%20your%20own%20ChatGPT.ipynb) | Expanded notebook with background material and examples |
-
-## Open in Google Colab
-
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AmirMotefaker/Create-your-own-ChatGPT/blob/main/Create_your_own_ChatGPT_with_Python.ipynb)
-
-## Quick start
+### Setup
 
 ```bash
 git clone https://github.com/AmirMotefaker/Create-your-own-ChatGPT.git
 cd Create-your-own-ChatGPT
+python -m venv .venv
 ```
 
-Open one of the notebooks in Jupyter or Colab and review the API/model calls before running them.
+Activate the environment:
 
-> [!CAUTION]
-> Never commit API keys or secrets to GitHub. Use environment variables or a local secret mechanism.
+```powershell
+# Windows PowerShell
+.venv\Scripts\Activate.ps1
+```
 
-## Modernization roadmap
+```bash
+# macOS / Linux
+source .venv/bin/activate
+```
 
-A future code-modernization milestone can move the examples to currently supported SDK patterns, add reproducible dependencies, improve secret handling, and add a minimal tested example. That work is intentionally separate from this README optimization so the documentation does not claim capabilities the current code does not yet have.
+Install dependencies:
+
+```bash
+python -m pip install -r requirements.txt
+```
+
+Set your API key locally — never commit it:
+
+```powershell
+$env:OPENAI_API_KEY = "your-key-here"
+```
+
+or:
+
+```bash
+export OPENAI_API_KEY="your-key-here"
+```
+
+Run one prompt:
+
+```bash
+python chat.py "Explain the Responses API in three bullets."
+```
+
+Or start an interactive multi-turn session:
+
+```bash
+python chat.py
+```
+
+Use another model when available to your account:
+
+```bash
+python chat.py --model gpt-5.5
+```
+
+## Historical notebooks
+
+The original notebooks are intentionally preserved as an educational archive:
+
+| File | Purpose |
+| --- | --- |
+| [`Create_your_own_ChatGPT_with_Python.ipynb`](Create_your_own_ChatGPT_with_Python.ipynb) | Lightweight historical Python/Jupyter walkthrough |
+| [`Create your own ChatGPT.ipynb`](Create%20your%20own%20ChatGPT.ipynb) | Expanded historical notebook with background material and examples |
+
+> [!IMPORTANT]
+> The notebooks were created around the 2023-era OpenAI API ecosystem and can contain deprecated API patterns or model names. Use `chat.py` for the modern path.
+
+## Validation
+
+The repository includes offline unit tests and GitHub Actions validation:
+
+```bash
+python -m unittest discover -s tests -v
+python -m compileall -q .
+```
+
+The CI workflow installs dependencies on Python 3.10 and 3.12, compiles the project, runs offline service tests, checks for accidental API-key patterns, and prevents legacy OpenAI calls from returning to the modern entrypoints.
+
+## Security
+
+- Keep `OPENAI_API_KEY` in your local environment or secret manager.
+- `.env`, virtual environments, Python caches, and Streamlit secrets are ignored.
+- No live paid API request is required by CI.
 
 ## Support the project
 
-If this educational archive helped you understand the early ChatGPT API workflow, consider giving it a ⭐. Stars help other learners discover the repository.
+If the modern example or historical notebooks help you, consider giving the repository a ⭐.
 
 ## Author
 
