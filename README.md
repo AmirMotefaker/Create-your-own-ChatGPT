@@ -111,3 +111,14 @@ If the modern example or historical notebooks help you, consider giving the repo
 ## Author
 
 **Amir Motefaker** — [GitHub](https://github.com/AmirMotefaker) · [Website](https://amirmotefaker.ir)
+<!-- phase9-community-start -->
+## Community and contributing
+
+- Use [GitHub Discussions](https://github.com/AmirMotefaker/Create-your-own-ChatGPT/discussions) for how-to questions, learning conversations, and technical Q&A.
+- Put answerable questions in the **Q&A** category so a useful reply can be marked as the answer.
+- Use [Issues](https://github.com/AmirMotefaker/Create-your-own-ChatGPT/issues) for reproducible bugs or scoped feature work.
+- Read [CONTRIBUTING.md](CONTRIBUTING.md) before sending code or documentation changes.
+- Report security vulnerabilities through the private path described in [SECURITY.md](SECURITY.md), not in a public thread.
+
+Small, useful contributions are welcome. `good first issue` and `help wanted` are reserved for real, deliverable contributor tasks rather than activity created for metrics.
+<!-- phase9-community-end -->
