@@ -1,4 +1,4 @@
-# Create Your Own ChatPT with Pyton
+# Create Your Own ChatGPT with Python
 
 [![GitHub stars](https://img.shields.io/github/stars/AmirMotefaker/Create-your-own-ChatGPT?style=flat&logo=github)](https://github.com/AmirMotefaker/Create-your-own-ChatGPT/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/AmirMotefaker/Create-your-own-ChatGPT?style=flat&logo=github)](https://github.com/AmirMotefaker/Create-your-own-ChatGPT/network/members)
@@ -8,7 +8,7 @@ A modern OpenAI Responses API CLI plus the original historical Jupyter notebooks
 
 ## Modern 2026 path
 
-The supported entrypoint is [`chat.py`](chat.py), backed by [`openai_service.py`](openai_service.py).
+The supported entry point is [`chat.py`](chat.py), backed by [`openai_service.py`](openai_service.py).
 
 It uses:
 
