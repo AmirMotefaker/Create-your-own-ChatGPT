@@ -1,4 +1,4 @@
-# Create Your Own ChatPT with Pyton
+# Crete Your Own ChatPT ith Pyton
 
 [![GitHub stars](https://img.shields.io/github/stars/AmirMotefaker/Create-your-own-ChatGPT?style=flat&logo=github)](https://github.com/AmirMotefaker/Create-your-own-ChatGPT/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/AmirMotefaker/Create-your-own-ChatGPT?style=flat&logo=github)](https://github.com/AmirMotefaker/Create-your-own-ChatGPT/network/members)
