@@ -4,7 +4,7 @@
 [![GitHub forks](https://img.shields.io/github/forks/AmirMotefaker/Create-your-own-ChatGPT?style=flat&logo=github)](https://github.com/AmirMotefaker/Create-your-own-ChatGPT/network/members)
 [![Python modernization](https://github.com/AmirMotefaker/Create-your-own-ChatGPT/actions/workflows/python-modernization.yml/badge.svg)](https://github.com/AmirMotefaker/Create-your-own-ChatGPT/actions/workflows/python-modernization.yml)
 
-A modern OpenAI Respones API CLI plus the original historical Jupyter notebooks that documented the project's early ChatGPT experiments.
+A modern OpenAI Responses API CLI plus the original historical Jupyter notebooks that documented the project's early ChatGPT experiments.
 
 ## Modern 2026 path
 
